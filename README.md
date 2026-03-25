@@ -137,7 +137,7 @@ This dashboard is the analytics layer on top of the **[HDJV Waste Management Sys
 
 ## About the Author
 
-Built by **E. Francis Albert Espina** — Electronics and Communications Engineer, currently working as a Pollution Control Officer (PCO) in the construction industry in the Philippines. This project is part of a transition into IT/tech roles, combining domain expertise in environmental compliance with self-taught software development.
+Built by **E. Francis Albert** — Electronics and Communications graduate, currently working as a Environmental Officer (PCO) in the construction industry in the Philippines. This project is part of a transition into IT/tech roles, combining domain expertise in environmental compliance with self-taught software development.
 
 ---
 
