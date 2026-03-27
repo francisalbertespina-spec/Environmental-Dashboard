@@ -1,4 +1,4 @@
-# HDJV Environmental Compliance Dashboard
+# Environmental Compliance Dashboard
 
 > A 3-page Power BI dashboard for monitoring hazardous and solid waste disposal compliance across construction packages — built on Philippine environmental regulations (RA 6969 / RA 9003).
 
@@ -14,7 +14,7 @@
 
 ## Overview
 
-This dashboard was built to address a real gap in construction site environmental monitoring: field waste data exists (logged via the [HDJV WMS](https://github.com/francisalbertespina-spec/Waste-log-V5)), but there was no management-level view showing compliance status, trends, and package-level comparisons in one place.
+This dashboard was built to address a real gap in construction site environmental monitoring: field waste data exists (logged via the [WMS](https://github.com/francisalbertespina-spec/Waste-log-sandbox)), but there was no management-level view showing compliance status, trends, and package-level comparisons in one place.
 
 The dashboard answers three questions that matter to a Pollution Control Officer (PCO):
 
@@ -70,7 +70,7 @@ Thresholds are configured per package (P4, P5, P6) in the `ComplianceThresholds`
 
 ## Dataset
 
-The Excel dataset (`HDJV_WMS_PowerBI_Dataset.xlsx`) contains 3 tables:
+The Excel dataset (`WMS_PowerBI_Dataset.xlsx`) contains 3 tables:
 
 | Sheet | Rows | Description |
 |---|---|---|
@@ -115,7 +115,7 @@ P4 Total Volume = CALCULATE(SUM(WasteLog[Volume_kg]), WasteLog[Package] = "P4")
 
 ## How to Open
 
-1. Download `HDJV_WMS_PowerBI_Dataset.xlsx` and `HDJV_Environmental_Dashboard.pbix`
+1. Download `WMS_PowerBI_Dataset.xlsx` and `Environmental_Dashboard.pbix`
 2. Open the `.pbix` file in Power BI Desktop (free download at powerbi.microsoft.com/desktop)
 3. If prompted to reconnect data → click **Transform Data** → update the Excel file path → **Close & Apply**
 
@@ -125,7 +125,7 @@ Or just view the **[PDF export](WMS_Compliance_Dashboard.pdf)** directly — no 
 
 ## Related Project
 
-This dashboard is the analytics layer on top of the **[HDJV Waste Management System (WMS)](https://github.com/francisalbertespina-spec/Waste-log-sandbox)** — a Progressive Web App built with vanilla JavaScript and Google Apps Script that field workers use to log waste disposal entries in real time.
+This dashboard is the analytics layer on top of the **[Waste Management System (WMS)](https://github.com/francisalbertespina-spec/Waste-log-sandbox)** — a Progressive Web App built with vanilla JavaScript and Google Apps Script that field workers use to log waste disposal entries in real time.
 
 | Layer | Technology | Purpose |
 |---|---|---|
@@ -141,4 +141,4 @@ Built by **E. Francis Albert** — Electronics and Communications graduate, curr
 
 ---
 
-*HDJV Environmental Management — Internal Use*
+*Environmental Management — Internal Use*
