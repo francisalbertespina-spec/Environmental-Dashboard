@@ -141,4 +141,4 @@ Built by **E. Francis Albert** — Electronics and Communications graduate, curr
 
 ---
 
-*Environmental Management — Internal Use*
+*MIT License — feel free to use this project as a reference or learning resource.*
